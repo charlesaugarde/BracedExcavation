@@ -119,7 +119,7 @@ julia> postpro(mesh.uvw, mesh.lstp, mesh.coord, mesh.etpl, gps, outdir)
 
 ```@raw html
 <img src="../figures/GeoMesh.png" width="48%" style="display:inline-block;">
-<img src="../figures/GeoGp.png" width="48%" style="display:inline-block;">
+<img src="../figures/GeoGP.png" width="48%" style="display:inline-block;">
 <p style="text-align: center">Figure 2. Left: Model mesh of geostatic state; Right: Vertical stress of geostatic state.</p>
 ```
 

@@ -105,7 +105,7 @@ julia> lineplot_excavation(mesh.lstp, mesh.uvw, mesh.coord, Snnodes, outdir)
 
 ```@raw html
 <img src="../figures/EGeoMesh.png" width="48%" style="display:inline-block;">
-<img src="../figures/EGeoGp.png" width="48%" style="display:inline-block;">
+<img src="../figures/EGeoGP.png" width="48%" style="display:inline-block;">
 <p style="text-align: center">Figure 2. Left: Model mesh of geostatic state; Right: Vertical stress of geostatic state.</p>
 ```
 
