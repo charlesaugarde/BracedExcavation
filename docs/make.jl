@@ -15,7 +15,6 @@ PAGES = [About, Tutorials, Notes, API]
 
 makedocs(sitename="Braced Excavation",
     authors="Mao Ouyang",
-    sitename="BracedExcavation.jl",
     format=format,
     remotes=nothing,
     checkdocs=:exports,
