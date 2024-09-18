@@ -28,7 +28,7 @@ jobs:
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
         run: julia --project=docs/ docs/make.jl
 
-permessions:
+permissions:
   contents: write
   pull-requests: read
   statuses: write
