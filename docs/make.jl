@@ -1,6 +1,8 @@
 push!(LOAD_PATH, "../src/")
 using Documenter, BracedExcavation
 
+format = Documenter.HTML(edit_link="master", prettyurls=get(ENV, "CI", nothing) == "true")
+
 About = "Introduction" => "index.md"
 
 Tutorials = "Tutorials" => ["tutorials/01_triaxial.md", "tutorials/02_constitutive.md", "tutorials/03_excavation.md"]
@@ -16,4 +18,8 @@ makedocs(sitename="Braced Excavation",
     remotes=nothing,
     checkdocs=:exports,
     pages=PAGES,
+)
+
+deploydocs(
+    repo="github.com/einoo/BracedExcavation.jl.git",
 )
