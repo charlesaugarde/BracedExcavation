@@ -1,4 +1,4 @@
-using LinearAlgebra, Infiltrator
+using LinearAlgebra
 """
     elasticD(E, v)
 
