@@ -22,4 +22,6 @@ makedocs(sitename="Braced Excavation",
 
 deploydocs(
     repo="github.com/einoo/BracedExcavation.jl.git",
+    versions=["stable" => "v^", "v#.#.#"],
+    devbranch="main",
 )
