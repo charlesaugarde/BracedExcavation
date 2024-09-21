@@ -18,6 +18,7 @@ makedocs(sitename="Braced Excavation",
     format=format,
     checkdocs=:exports,
     pages=PAGES,
+    repo=Remotes.GitHub("github.com", "einoo", "BracedExcavation"),
 )
 
 deploydocs(
